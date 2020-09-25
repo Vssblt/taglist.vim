@@ -1,4 +1,4 @@
-## Fork by vim-scripts/taglist.vim
+## Forked from vim-scripts/taglist.vim
 #### This fork fix some bugs.
 bugs:  
 fix bugs in Tlist_Refresh_Folds
