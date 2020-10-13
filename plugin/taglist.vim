@@ -1557,7 +1557,7 @@ function! s:Tlist_Window_Init()
     nnoremap <buffer> <silent> P
                 \ :call <SID>Tlist_Window_Jump_To_Tag('prevwin')<CR>
     if v:version >= 700
-    nnoremap <buffer> <silent> t
+    nnoremap <buffer> <silent> S
                 \ :call <SID>Tlist_Window_Jump_To_Tag('checktab')<CR>
     nnoremap <buffer> <silent> <C-t>
                 \ :call <SID>Tlist_Window_Jump_To_Tag('newtab')<CR>

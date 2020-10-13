@@ -23,6 +23,24 @@ index 59901f6..2d1d26b
          return
 ```
 
+### Map changed
+```
+diff --git a/plugin/taglist.vim b/plugin/taglist.vim
+index 2d1d26b..ac41852 100755
+--- a/plugin/taglist.vim
++++ b/plugin/taglist.vim
+@@ -1557,7 +1557,7 @@ function! s:Tlist_Window_Init()
+     nnoremap <buffer> <silent> P
+                 \ :call <SID>Tlist_Window_Jump_To_Tag('prevwin')<CR>
+     if v:version >= 700
+-    nnoremap <buffer> <silent> t
++    nnoremap <buffer> <silent> S
+                 \ :call <SID>Tlist_Window_Jump_To_Tag('checktab')<CR>
+     nnoremap <buffer> <silent> <C-t>
+                 \ :call <SID>Tlist_Window_Jump_To_Tag('newtab')<CR>
+```
+
+
 ## original readme: ##
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=273
 
